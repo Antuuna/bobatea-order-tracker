@@ -1,0 +1,53 @@
+.menu {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  border-style: solid;
+  border-color: black;
+  margin: 0px;
+  padding: 0px;
+  width: 225px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.item {
+  height: 75px;
+  width: 75px;
+}
+
+.order1,
+.order2,
+.order3 {
+  display: flex;
+  gap: 5px;
+  /* border-style: solid;
+  border-color: black; */
+}
+
+.timer1,
+.timer2,
+.timer3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 225px;
+  border-style: solid;
+  border-color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
