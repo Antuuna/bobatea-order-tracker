@@ -23,13 +23,22 @@
   width: 75px;
 }
 
+.customer1,
+.customer2,
+.customer3 {
+  display: flex;
+  gap: 5px;
+}
+
 .order1,
 .order2,
 .order3 {
   display: flex;
-  gap: 5px;
-  /* border-style: solid;
-  border-color: black; */
+  flex-direction: column;
+  border-style: solid;
+  border-color: black;
+  width: 225px;
+
 }
 
 .timer1,
